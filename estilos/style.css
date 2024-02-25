@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /* 
-
 Paleta de cores:
 background: #4C5AC8 #559CFA #7755FA #AD55FA #E355FA
 
@@ -11,3 +10,57 @@ loginbottom: #6FB555
 
 textcolor: #000000
 */
+
+:root {
+    --cordefundo: #4c5ac8 #559cfa #7755fa #ad55fa #e355fa;
+    --corfundologin: #ffffff;
+    --corfundodados: #e6e6e6;
+    --corbotaologin: #6fb555;
+    --cordetexto: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background: linear-gradient(45deg, #4c5ac8, #7755fa, #ad55fa, #e355fa);
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: var(--corfundologin);
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+}
+
+section#login > div#imagem {
+    background: url(../images/imglogin1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 250px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
