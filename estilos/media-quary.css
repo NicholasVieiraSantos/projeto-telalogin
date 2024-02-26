@@ -14,16 +14,17 @@ Grande Desktop: acima de 1200px
     body {
         background: linear-gradient(
             45deg,
-            #4b49c7,
+            #73daec,
+            #73abec,
             #6b38f8,
             #a64af1,
-            rgb(203, 77, 228),
-            #e041f8
+            rgb(203, 77, 228)
         );
     }
 
     section#login {
         width: 80vw;
+        height: 300px;
     }
 
     section#login > div#imagem {
@@ -42,16 +43,17 @@ Grande Desktop: acima de 1200px
     body {
         background: linear-gradient(
             45deg,
-            #4b49c7,
+            #73daec,
+            #73abec,
             #6b38f8,
             #a64af1,
-            rgb(203, 77, 228),
-            #e041f8
+            rgb(203, 77, 228)
         );
     }
-    
+
     section#login {
         width: 900px;
+        height: 450px;
     }
 
     section#login > div#imagem {
@@ -70,21 +72,35 @@ Grande Desktop: acima de 1200px
     body {
         background: linear-gradient(
             45deg,
-            #4b49c7,
+            #73daec,
+            #73abec,
             #6b38f8,
             #a64af1,
-            rgb(203, 77, 228),
-            #e041f8
+            rgb(203, 77, 228)
         );
     }
-    
+
     section#login {
         width: 1150px;
     }
 
     section#login > div#imagem {
-        float: top;
-        width: 100%;
-        height: 30%;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+        margin: 20px 0px;
     }
 }
