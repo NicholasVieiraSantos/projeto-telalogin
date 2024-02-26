@@ -28,7 +28,7 @@ textcolor: #000000
 
 body,
 html {
-    background: linear-gradient(45deg, #4c5ac8, #7755fa, #ad55fa, #e355fa);
+    background-color: #ad55fa;
     height: 100vh;
     width: 100vw;
 }
@@ -51,6 +51,10 @@ section#login {
     height: 600px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.164);
+    
+    transition: width .5s, height .5s;
+    transition-timing-function: ease;
+
 }
 
 section#login > div#imagem {
